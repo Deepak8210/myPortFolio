@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        body: "#F0FFFF",
+                        primaryGreen: "#08CACF",
+                        primaryBlue: "#75B8DA",
+                        secondary: "#C5C4C4",
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body style="font-family: 'Bai Jamjuree', sans-serif;" class="bg-body">
+
+
+    <section id="hero" class=" mt-[3.5rem] h-[calc(100vh-3.5rem)] w-full flex flex-col md:flex-row md:px-32">
+        <div class=" flex flex-col justify-center  min-h-full  md:max-w-[50%] px-16 ">
+            <div class="w-16 h-[2px] bg-black mb-2"></div>
+            <span class="text-black text-3xl font-semibold"><span
+                    class="text-primaryGreen mb-11 inline-block">Hello,</span> I am</span>
+            <div>
+                <img src="../assets/deepak-name1.png" class="mb-2" alt="name">
+            </div>
+            <span class="text-secondary text-2xl font-medium tracking-[6px] inline-block">A WEB DEVELOPER FROM
+                <span class="text-primaryGreen">INDIA.</span></span>
+            <div class="flex items-center space-x-3 mt-6  ">
+                <img src="../assets/playButton.png" alt="play" class="w-16">
+                <span class="text-black text-[0.8rem] font-bold tracking-[10px] uppercase">see my work profile</span>
+            </div>
+            <div class=" flex flex-col mt-28">
+                <span class="uppercase font-bold text-xs tracking-[10px] text-gray-700 mb-3">contact me</span>
+                <span class="font-semibold text-xs">Email: <span
+                        class="text-primaryGreen font-normal">deepakrajput058@gmail.com</span></span>
+                <span class="font-semibold text-xs">Contact Number: <span class="text-primaryGreen font-normal">+91
+                        8210117824</span></span>
+            </div>
+
+        </div>
+        <div class=" h-full md:flex p-8 relative hidden">
+            <img src="../assets/deepak-kumar.png" alt="deepak-kr" class=" w-full object-cover">
+        </div>
+    </section>
+
+    <section id="Education" class="min-h-screen flex flex-col justify-center w-full text-black p-4 lg:px-20">
+        <h6 class="text-lg uppercase font-bold">About</h6>
+        <h1 class="text-4xl tracking-wider font-bold mb-8 text-primaryGreen">My Education & Certifications</h1>
+        <div class="grid md:grid-cols-2 gap-2 lg:gap-6 w-full">
+
+            <div class=" rounded-xl p-6 flex flex-col gap-2 shadow-md border">
+                <h4 class="text-2xl font-bold text-primaryBlue">Master of Computer Application</h4>
+                <p class="text-blue-950 font-medium">Chandigarh university mohali</p>
+                <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class=" rounded-xl p-6 flex flex-col gap-2 shadow-md border">
+                <h4 class="text-2xl font-bold text-primaryBlue">Master of Computer Application</h4>
+                <p class="text-blue-950 font-medium">Chandigarh university mohali</p>
+                <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus,
+                    temporibus. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Dicta, eos.</p>
+            </div>
+            <div class=" rounded-xl p-6 flex flex-col gap-2 shadow-md border">
+                <h4 class="text-2xl font-bold text-primaryBlue">Master of Computer Application</h4>
+                <p class="text-blue-950 font-medium">Chandigarh university mohali</p>
+                <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus,
+                    temporibus. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Dicta, eos.</p>
+            </div>
+            <div class=" rounded-xl p-6 flex flex-col gap-2 shadow-md border">
+                <h4 class="text-2xl font-bold text-primaryBlue">Master of Computer Application</h4>
+                <p class="text-blue-950 font-medium">Chandigarh university mohali</p>
+                <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus,
+                    temporibus. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Dicta, eos.</p>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <section id="projects" class="min-h-screen flex flex-col justify-center w-full text-black p-4 lg:px-20">
+        <h6 class="text-lg uppercase font-bold">work</h6>
+        <h1 class="text-4xl tracking-wider font-bold mb-8 text-primaryGreen">My Recent Projects</h1>
+        <div class="grid md:grid-cols-3 gap-2 lg:gap-6 w-full">
+
+            <div class=" rounded-xl flex flex-col gap-2 shadow-md border overflow-hidden group">
+                <div class="flex">
+                    <img src="../assets/post-4.webp" alt=""
+                        class="w-full object-cover group-hover:scale-105 duration-300">
+                </div>
+                <div class=" p-6">
+                    <h4 class="text-2xl font-bold text-primaryBlue">Startup Landing Page</h4>
+                    <p class="text-blue-950 font-medium">innnovationl that skip expectation</p>
+                    <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class=" rounded-xl flex flex-col gap-2 shadow-md border overflow-hidden group">
+                <div class="flex">
+                    <img src="../assets/post-4.webp" alt=""
+                        class="w-full object-cover group-hover:scale-105 duration-300">
+                </div>
+                <div class=" p-6">
+                    <h4 class="text-2xl font-bold text-primaryBlue">Startup Landing Page</h4>
+                    <p class="text-blue-950 font-medium">innnovationl that skip expectation</p>
+                    <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class=" rounded-xl flex flex-col gap-2 shadow-md border overflow-hidden group">
+                <div class="flex">
+                    <img src="../assets/post-4.webp" alt=""
+                        class="w-full object-cover group-hover:scale-105 duration-300">
+                </div>
+                <div class=" p-6">
+                    <h4 class="text-2xl font-bold text-primaryBlue">Startup Landing Page</h4>
+                    <p class="text-blue-950 font-medium">innnovationl that skip expectation</p>
+                    <p class="text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+    <section id="contact" class="min-h-screen flex flex-col justify-center w-full text-black p-4 lg:px-60">
+        <h6 class="text-lg uppercase font-bold text-center">contact</h6>
+        <h1 class="text-4xl tracking-wider font-bold mb-8 text-primaryGreen text-center">Interested In Working Together?
+            Let's Talk
+        </h1>
+        <div class="grid md:grid-cols-2 gap-2 lg:gap-6 w-full">
+
+            <input type="text" placeholder="Enter your name"
+                class="py-2 border-2 px-2 rounded-lg bg-transparent text-gray-900">
+            <input type="text" placeholder="Enter your email"
+                class="py-2 border-2 px-2 rounded-lg bg-transparent text-gray-900">
+            <input type="text" placeholder="Enter subject"
+                class="md:col-span-2 px-2 rounded-lg py-2 border-2 bg-transparent text-gray-900">
+            <textarea name="" placeholder="Enter your message in detail" id="" cols="30" rows="5"
+                class=" py-2 bg-transparent border-2  px-2 rounded-lg md:col-span-2"></textarea>
+            <button class="col-span-2 bg-primaryGreen text-gray-200 text-lg font-bold p-2 rounded-md">Contact
+                Me</button>
+
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
