@@ -2,6 +2,7 @@ import React from "react";
 import projectTaskMinder from "../assets/taskMinder.png";
 import projectBlogImg from "../assets/blog.png";
 import projectMattend from "../assets/m-attendance.png";
+import projectFoodImg from "../assets/food.png";
 
 const Projects = () => {
   return (
@@ -14,6 +15,35 @@ const Projects = () => {
         My Recent Projects
       </h1>
       <div className="grid md:grid-cols-3 gap-2 lg:gap-6 w-full">
+        <div className=" rounded-xl flex flex-col gap-2 shadow-md border overflow-hidden group">
+          <div className="flex">
+            <img
+              src={projectFoodImg}
+              alt=""
+              className="w-full object-cover group-hover:scale-105 duration-300"
+            />
+          </div>
+          <div className=" p-6">
+            <h4 className="text-2xl font-bold text-[#208f93]">
+              The Restraunt App
+            </h4>
+            <p className="text-blue-950 font-medium">
+              This is a Food Ordering & Booking App made using ReactJS
+            </p>
+            <p className="text-gray-400">
+              This projects is made using react js,redux-toolkit the app can
+              order food or book tables.
+            </p>
+            <a
+              href="https://foodpro-react.netlify.app/"
+              className="text-blue-950 text-sm font-medium hover:text-orange-300"
+              target="_blank"
+            >
+              Visit Project
+            </a>
+          </div>
+        </div>
+
         <div className=" rounded-xl flex flex-col gap-2 shadow-md border overflow-hidden group">
           <div className="flex">
             <img
