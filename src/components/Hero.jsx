@@ -1,4 +1,4 @@
-import deepakKumar from "../assets/deepak-kumar.png";
+import deepakKumar from "../assets/PROFESSIONAL.jpg";
 import deepakName from "../assets/deepak-name1.png";
 import playBtn from "../assets/playButton.png";
 import Navbar from "./Navbar";
